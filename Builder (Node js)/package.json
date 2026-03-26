@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-html-builder",
+  "version": "1.0.0",
+  "description": "Convert WhatsApp chat exports (.zip/.txt) to static HTML viewer",
+  "main": "index.js",
+  "bin": {
+    "wa-builder": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "chat",
+    "export",
+    "html",
+    "converter"
+  ],
+  "license": "MIT"
+}
